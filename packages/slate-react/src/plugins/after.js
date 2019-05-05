@@ -116,6 +116,7 @@ function AfterPlugin(options = {}) {
       }
 
       case 'insertFromYank':
+      case 'insertFromComposition':
       case 'insertReplacementText':
       case 'insertText': {
         // COMPAT: `data` should have the text for the `insertText` input type
